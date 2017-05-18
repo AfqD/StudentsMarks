@@ -115,7 +115,7 @@ namespace StudentsMarks
 
 
 
-			Console.WriteLine("Student MarkList Application");
+			Console.WriteLin("Student MarkList Application");
 
 			Console.Write("Enter the Total number  of students: ");
 
