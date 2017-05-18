@@ -9,12 +9,14 @@ namespace UnitTests
         public void PassingTest()
         {
             Assert.Equal(4, Add(2, 2));
+            Console.Write("pass");
         }
 
         [Fact]
         public void FailingTest()
         {
             Assert.Equal(5, Add(2, 2));
+            Console.Write("fail");
         }
 
         int Add(int x, int y)
